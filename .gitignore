@@ -1,0 +1,3 @@
+*.pyc
+.pypirc
+.DS_Store
