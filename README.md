@@ -1,6 +1,8 @@
 # codedeepai
 OpenCV utility functions 
 
+### pip install codedeepai
+
 ## Write Video Class 
 
 OpenCV provides a lot of useful functions to work with images and video files. One such operation is saving video using OpenCV. However, saving video with OpenCV, although is a straightforward operation, but at times it becomes very time consuming to debug because of some silly mistakes. Any time there is any issue, the frames do not get added to video file, and the video thus generated does not work. For example if the extension of video file saved does not match the encoding that we are using, the video file does not get written. Similarly, if there is issue with fps or frame size, the video file does not get written to and hence does not work. This class adds a few validations like that to make saving videos smooth. 
